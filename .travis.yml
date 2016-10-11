@@ -11,9 +11,9 @@ install:
 - yarn cache clean
 - yarn global add coveralls
 script:
-- npm run coverage
+- yarn run coverage
 after_success:
-- npm run coveralls
+- yarn run coveralls
 cache:
   directories:
     - node_modules
