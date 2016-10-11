@@ -55,13 +55,15 @@
   "devDependencies": {
     "ava": "*",
     "garbage": "*",
+    "nyc": "*",
+    "standard": "*"
+  },
+  "optionalDependencies": {
     "ink-docstrap": "*",
     "jsdoc": "*",
     "live-server": "*",
     "marked-man": "*",
     "npm-run-all": "*",
-    "nyc": "*",
-    "standard": "*",
     "watch": "*"
   },
   "license": "MIT",

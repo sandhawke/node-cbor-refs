@@ -6,7 +6,7 @@ node_js:
 - "6"
 install:
 - npm install -g yarnpkg
-- yarn
+- yarn --ignore-optional
 - yarn global add coveralls
 script:
 - yarn run coverage
