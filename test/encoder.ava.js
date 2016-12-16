@@ -119,3 +119,10 @@ test('canonical numbers', t => {
     t.is(bs.read().toString('hex'), numEnc[1])
   }
 })
+
+test('encodeAll', t => {
+  for (let numEnc of cases.canonNums) {
+    t.is(cbor.encodeAll([numEnc[0]], {canonical: true}).toString('hex'),
+         numEnc[1])
+  }
+})
