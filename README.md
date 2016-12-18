@@ -1,4 +1,4 @@
-Fork to add reference handle.
+Fork to add reference handling.
 
 Currently abandoned in favor of [borc-refs](https://github.com/sandhawke/borc-refs)
 
